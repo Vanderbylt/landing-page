@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto' sans-serif;
+    font-family: Roboto;
     margin: 0px;
 }
 
@@ -9,9 +9,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 64px 0 64px;
+    padding: 8px 64px 0 64px;
+    background-color: #1f2937;
+    color: white;
+    
 }
 
+.header strong {
+    font-size: 24px;
+    color:#f9faf8;
+}
 ul {
     margin: 0px;
     padding: 0px;
@@ -22,6 +29,7 @@ ul {
 
 a {
     text-decoration: none;
+    
 }
 
 .hero {
@@ -29,7 +37,7 @@ a {
     padding: 56px;
     justify-content: space-between;
     gap: 20px;
-    background-color: brown;
+    background-color: #1f2937;
 }    
 
 .para {
@@ -39,18 +47,52 @@ a {
     height: auto;
 }
 
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+
+}
+
+.para p, a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    display: block;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+button, .under {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    padding: 2px;
+    border-radius: 5px;
+    border-style: solid;
+}
 .img-plc {
     width: 500px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #b7bbc4;
+    color: #f9faf8;
 }
 
 h2 {
     display: flex;
     justify-content: center;
     margin: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 .side {
     display: flex;
@@ -72,8 +114,8 @@ h2 {
 .img-hld {
     width: 140px;
     height: 140px;
-    background-color: aqua;
-    
+    border: 2px solid #3882f6;
+    border-radius:  5px ;   
 }
 
 .p {
@@ -85,10 +127,18 @@ figure {
     flex-flow: column wrap;
     padding: 64px 256px;
     align-items: center;
+    background-color: #e5e7eb;
+    margin: 0;
 }
 
+figure p {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
 figcaption {
     align-self: flex-end;
+    font-size: 36px;
 }
 
 .under {
@@ -96,7 +146,6 @@ figcaption {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: aquamarine;
     padding: 32px;
 }
 
@@ -105,6 +154,7 @@ figcaption {
     flex-direction: column;
     justify-content: center;
     gap:5px;
+    color: #f9faf8;
 }
 
 strong {
@@ -116,5 +166,6 @@ strong {
     flex-direction: column;
     align-items: center;
     padding: 10px 0 10px 0;
-    background-color: blueviolet;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
